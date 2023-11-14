@@ -1,7 +1,7 @@
 package labb1;
 
-public class Flights { // Här skapas en klass med namnet Labb1_flights
-    public static void main(String[] args) { // Här deklareras metoden main, där all kod befinner sig
+public class FlightsOutput { // Här skapas en klass med namnet FlightsOutput
+    public static void main(String[] args) { // Här deklareras main metoden, där all kod befinner sig.
 
         // Uträkning för flyg från New York
         System.out.println("******************************************************************");
