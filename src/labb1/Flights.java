@@ -1,5 +1,8 @@
-public class Labb1_flights { // Här skapas en klass med namnet Labb1_flights
+package labb1;
+
+public class Flights { // Här skapas en klass med namnet Labb1_flights
     public static void main(String[] args) { // Här deklareras metoden main, där all kod befinner sig
+
         // Uträkning för flyg från New York
         System.out.println("******************************************************************");
         System.out.println(); // Skapar en tom rad
@@ -17,5 +20,7 @@ public class Labb1_flights { // Här skapas en klass med namnet Labb1_flights
        Här används samma metod för att göra en uträkning på avgångstiden och ankomstiden med åtanke på restid och tidsskillnad. */
         System.out.println(); // Skapar en tom rad
         System.out.println("******************************************************************");
+
     }
 }
+
