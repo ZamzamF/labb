@@ -4,6 +4,7 @@ public class FlightsOutput { // Här skapas en klass med namnet FlightsOutput
     public static void main(String[] args) { // Här deklareras main metoden, där all kod befinner sig.
 
         // Uträkning för flyg från New York
+
         System.out.println("******************************************************************");
         System.out.println(); // Skapar en tom rad
         System.out.println("Vilken tid anländer flyget från New York i Stockholm?"); // Det här är en metod som skriver ut en sträng till konsolen
@@ -13,6 +14,8 @@ public class FlightsOutput { // Här skapas en klass med namnet FlightsOutput
         System.out.println(); // Skapar en tom rad
         System.out.println("******************************************************************");
         System.out.println(); // Skapar en tom rad
+
+
         // Uträkning för flyg från Stockholm
         System.out.println("Vilken tid anländer flyget från stockholm i NY?"); // Det här är en metod som skriver ut en sträng till konsolen
         System.out.println(); // Skapar en tom rad
