@@ -1,7 +1,5 @@
 package labb2;
-
 import java.util.Scanner;
-
 public class WindChill {
     public static void main(String[] args) {
         // Deklarerar variabler för vindhastighet, utetempuratur och WindChill-beräkning. Variablerna är av datatypen double för att få med decimaler.
@@ -11,6 +9,7 @@ public class WindChill {
 
         // Här skapas ett Scanner-objekt för att läsa in data från användaren.
         Scanner myObj = new Scanner(System.in);
+
 
         // Användaren uppmanas att ange temperatur i celsius. Sedan skrivs detta ut i konsolen.
         System.out.println("Ange utetemperaturen i celcius: ");
@@ -25,5 +24,7 @@ public class WindChill {
 
         // Skriver ut resultatet med två decimaler (OBS! notera att det ska vara kommatecknet och INTE plus.)
         System.out.printf("Windchill faktorn är: %.2f", WindChillcalc);
+
+
     }
 }
