@@ -30,7 +30,7 @@ public class WctLoop {
             // En if statement som skriver ut meddelanden beroende på WCT
             if(WindChillcalc > -25){
                 System.out.println("Det är kallt");
-            } else if (WindChillcalc > -35) {
+            } else if (WindChillcalc >= -35) {
                 System.out.println("Det är mycket kallt");
             } else if (WindChillcalc >= -60) {
                 System.out.println("Det finns risk för frostskada");
